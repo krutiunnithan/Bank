@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60850" started-at="2019-03-28T04:11:56Z" finished-at="2019-03-28T04:12:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60850" started-at="2019-03-28T04:11:56Z" finished-at="2019-03-28T04:12:57Z">
+      <class name="XYZ.Manager">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, int)[pri:0, instance:XYZ.Manager@198b989]" name="invokeBrowser" duration-ms="4586" started-at="2019-03-28T09:42:48Z" data-provider="getData" finished-at="2019-03-28T09:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kruti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unnithan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, int)[pri:0, instance:XYZ.Manager@198b989]" name="invokeBrowser" duration-ms="2576" started-at="2019-03-28T09:42:52Z" data-provider="getData" finished-at="2019-03-28T09:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anjali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jain]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:XYZ.Manager@198b989]" name="tearDown" is-config="true" duration-ms="2247" started-at="2019-03-28T09:42:55Z" finished-at="2019-03-28T09:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- XYZ.Manager -->
+      <class name="XYZ.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:XYZ.HomePage@7e5409]" name="initialize" is-config="true" duration-ms="6129" started-at="2019-03-28T09:41:56Z" finished-at="2019-03-28T09:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:XYZ.Manager@198b989]" name="initialize" is-config="true" duration-ms="3090" started-at="2019-03-28T09:42:03Z" finished-at="2019-03-28T09:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:XYZ.HomePage@7e5409]" name="invokeBrowser" duration-ms="40429" started-at="2019-03-28T09:42:06Z" finished-at="2019-03-28T09:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+      </class> <!-- XYZ.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
